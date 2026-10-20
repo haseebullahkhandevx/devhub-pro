@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" id="html-root" class="light">
 <head>
+    <link rel="icon" type="image/png" href="/favicon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Tool Nest — Free Browser-Based Developer Tools</title>
@@ -436,7 +437,7 @@
                 Footer advertisement space — ad code not connected yet.
             </div>
             <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500 dark:text-slate-400">
-                <p>&copy; 2026 DevHub Pro. All rights reserved. Built for developers.</p>
+                <p>&copy; 2026 DevTool Nest. All rights reserved. Built for developers.</p>
                 <div class="flex flex-wrap justify-center gap-6 font-medium">
                     <button onclick="openModal('aboutModal')" class="hover:text-amberMain transition">About Us</button>
                     <button onclick="openModal('privacyModal')" class="hover:text-amberMain transition">Privacy Policy</button>
@@ -449,9 +450,9 @@
     <!-- Modals for Footer Pages -->
     <div id="aboutModal" class="fixed inset-0 bg-black/60 z-50 hidden flex items-center justify-center p-4">
         <div class="bg-lightCard dark:bg-darkCard border border-slate-200 dark:border-darkBorder rounded-2xl max-w-lg w-full p-6 space-y-4 shadow-2xl">
-            <h3 class="text-lg font-bold text-slate-900 dark:text-white">About DevHub Pro</h3>
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white">About DevTool Nest</h3>
             <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
-                DevHub Pro is a collection of browser-based utilities for common developer tasks. Tool inputs are processed in your browser by this page; loading this page may still contact third-party CDN providers for its libraries and styles.
+                DevTool Nest is a collection of browser-based utilities for common developer tasks. Tool inputs are processed in your browser by this page; loading this page may still contact third-party CDN providers for its libraries and styles.
             </p>
             <button onclick="closeModal('aboutModal')" class="w-full bg-amberMain hover:bg-amberHover text-slate-900 font-bold py-2 rounded-xl text-xs transition">Close</button>
         </div>
@@ -461,7 +462,7 @@
         <div class="bg-lightCard dark:bg-darkCard border border-slate-200 dark:border-darkBorder rounded-2xl max-w-lg w-full p-6 space-y-4 shadow-2xl">
             <h3 class="text-lg font-bold text-slate-900 dark:text-white">Privacy Policy</h3>
             <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
-                The tools on this page process the values you enter in your browser and do not intentionally send those values to a DevHub Pro application server. This page loads styling and icons from third-party CDNs, which receive normal connection information. Hosting, analytics, ads, or other scripts added later may change this behavior; review the live site configuration before publishing a final privacy policy.
+                The tools on this page process the values you enter in your browser and do not intentionally send those values to a DevTool Nest application server. This page loads styling and icons from third-party CDNs, which receive normal connection information. Hosting, analytics, ads, or other scripts added later may change this behavior; review the live site configuration before publishing a final privacy policy.
             </p>
             <button onclick="closeModal('privacyModal')" class="w-full bg-amberMain hover:bg-amberHover text-slate-900 font-bold py-2 rounded-xl text-xs transition">Close</button>
         </div>
