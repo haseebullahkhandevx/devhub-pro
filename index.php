@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevHub Pro — Free Browser-Based Developer Tools</title>
+    <title>Dev Tool Nest — Free Browser-Based Developer Tools</title>
     <meta name="description" content="Free browser-based developer utilities for JSON to SQL, Base64, SHA hashing, JWT decoding, UUIDs, URL slugs, JSON formatting, passwords, and HTML entities.">
     <!-- Add a canonical URL and structured data after the production domain is confirmed. -->
 
@@ -81,7 +81,7 @@
                 </div>
                 <div>
                     <h1 class="font-bold text-base sm:text-lg text-slate-900 dark:text-white tracking-wide">
-                        DevHub <span class="text-amberMain">Pro</span>
+                        DevTool <span class="text-amberMain">Nest</span>
                     </h1>
                     <p class="text-[10px] sm:text-[11px] text-slate-500 dark:text-slate-400 font-medium hidden xs:block">Developer tools that run in your browser</p>
                 </div>
