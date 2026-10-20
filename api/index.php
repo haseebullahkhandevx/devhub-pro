@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" id="html-root" class="light">
 <head>
-<link rel="icon" type="image/png" href="/favicon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Tool Nest — Free Browser-Based Developer Tools</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
     <meta name="description" content="Free browser-based developer utilities for JSON to SQL, Base64, SHA hashing, JWT decoding, UUIDs, URL slugs, JSON formatting, passwords, and HTML entities.">
     <!-- Add a canonical URL and structured data after the production domain is confirmed. -->
 
