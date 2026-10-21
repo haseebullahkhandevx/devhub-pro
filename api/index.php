@@ -3,10 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dev Tool Nest — Free Browser-Based Developer Tools</title>
-    <link rel="icon" type="image/png" href="/favicon.png?v=2">
-    <meta name="description" content="Free browser-based developer utilities for JSON to SQL, Base64, SHA hashing, JWT decoding, UUIDs, URL slugs, JSON formatting, passwords, and HTML entities.">
-    <!-- Add a canonical URL and structured data after the production domain is confirmed. -->
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>DevTool Nest — Free Online Developer Tools & Utilities</title>
+    <meta name="description" content="Free online browser-based tools for developers on DevTool Nest: JSON to SQL schema generator, Base64 encoder/decoder, SHA-256/512 hashes, JWT debugger, UUID v4 generator, URL slugify, JSON beautifier, and password generator. Fast, safe, and privacy-focused.">
+    <meta name="keywords" content="DevTool Nest, developer tools, json to sql, base64 encoder, sha256 hash generator, jwt debugger, uuid generator, url slugify, json beautifier, password generator, html entity escaper">
+    <meta name="author" content="DevTool Nest">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://devtoolnest.vercel.app/">
+
+    <!-- Favicon (Tab Bar Logo: White, Yellow, and Red Theme) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23ef4444'/><path d='M30 35 L15 50 L30 65 M70 35 L85 50 L70 65 M55 30 L45 70' stroke='%23ffffff' stroke-width='8' stroke-linecap='round' stroke-linejoin='round' fill='none'/><circle cx='50' cy='50' r='6' fill='%23f59e0b'/></svg>">
+
+    <!-- Open Graph / Facebook / WhatsApp SEO -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://devtoolnest.vercel.app/">
+    <meta property="og:title" content="DevTool Nest — Free Online Developer Tools & Utilities">
+    <meta property="og:description" content="Instant browser-based web developer tools on DevTool Nest: JSON to SQL, Base64, SHA Hashes, JWT Debugger, UUIDs, and more. 100% free and client-side safe.">
+    <meta property="og:image" content="https://devtoolnest.vercel.app/og-image.png">
+
+    <!-- Twitter / X SEO -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DevTool Nest — Developer Utilities in Your Browser">
+    <meta name="twitter:description" content="Free online browser-based developer tools on DevTool Nest: JSON to SQL, Base64, SHA Hashing, JWT Debugging, UUID Generator.">
+    <meta name="twitter:image" content="https://devtoolnest.vercel.app/og-image.png">
+
+    <!-- Structured Data / Schema.org for Google Search Bots -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "DevTool Nest",
+      "url": "https://devtoolnest.vercel.app/",
+      "description": "Free browser-based developer utilities for JSON to SQL, Base64, SHA hashing, JWT decoding, UUIDs, URL slugs, and JSON formatting.",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "All",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
 
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -46,25 +84,6 @@
             background-color: #f59e0b;
             color: #0f172a;
         }
-        /* Ad slots are placeholders until an approved ad network code is added. */
-        .ad-slot {
-            min-height: 100px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            border: 1px dashed #cbd5e1;
-            border-radius: 12px;
-            background: rgba(148, 163, 184, 0.06);
-            color: #64748b;
-            padding: 12px;
-            font-size: 11px;
-        }
-        .ad-slot-sidebar { min-height: 250px; }
-        .ad-slot-banner { min-height: 90px; }
-        .ad-slot-content { min-height: 100px; }
-        .ad-slot-footer { min-height: 90px; }
-        .dark .ad-slot { border-color: #475569; color: #94a3b8; }
     </style>
 </head>
 <body class="bg-lightBg dark:bg-darkBg text-slate-800 dark:text-slate-100 font-sans min-h-screen flex flex-col transition-colors duration-200">
@@ -99,13 +118,16 @@
             </div>
         </div>
     </header>
-<!-- Main Container -->
-    <div class="flex-1 max-w-7xl mx-auto px-4 sm:px-6 py-6 w-full grid grid-cols-1 lg:grid-cols-4 gap-6 sm:gap-8">
 
-        <!-- AD SLOT 1: Top responsive banner. Add your approved ad-network unit code here. -->
-        <div class="lg:col-span-4 ad-slot ad-slot-banner" aria-label="Advertisement">
-            Advertisement space — connect an approved ad unit to display ads.
+    <!-- Top Ad Banner Space -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 w-full mt-4">
+        <div class="bg-slate-200 dark:bg-darkCard border border-dashed border-slate-400 dark:border-darkBorder rounded-xl p-3 text-center text-xs text-slate-500 dark:text-slate-400">
+            <span>[ Advertisement Space - Top Leaderboard Banner ]</span>
         </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="flex-1 max-w-7xl mx-auto px-4 sm:px-6 py-6 w-full grid grid-cols-1 lg:grid-cols-4 gap-6 sm:gap-8">
         
         <!-- Sidebar Navigation -->
         <aside id="sidebar-container" class="lg:col-span-1 space-y-4 hidden lg:block">
@@ -146,11 +168,12 @@
                     <i class="fa-solid fa-code-compare w-5 text-center text-redMain" aria-hidden="true"></i> HTML Entity Escaper
                 </button>
             </nav>
-            <!-- AD SLOT 2: Sidebar display ad. Add your approved ad-network unit code here. -->
-            <div class="ad-slot ad-slot-sidebar" aria-label="Advertisement">
-                Sidebar advertisement space — ad code not connected yet.
+
+            <!-- Sidebar Ad Slot -->
+            <div class="bg-slate-200 dark:bg-darkCard border border-dashed border-slate-400 dark:border-darkBorder rounded-xl p-4 text-center text-xs text-slate-500 dark:text-slate-400 mt-6">
+                <span>[ Sidebar Ad Space ]</span>
             </div>
-</aside>
+        </aside>
 
         <!-- Single-page tool panels -->
         <main class="lg:col-span-3 space-y-6">
@@ -176,6 +199,10 @@
                         </div>
                         <textarea id="sql-output" readonly class="w-full h-56 bg-slate-50 dark:bg-slate-900 border border-slate-300 dark:border-darkBorder rounded-xl p-4 font-mono text-xs text-emerald-600 dark:text-emerald-400"></textarea>
                     </div>
+                </div>
+                <!-- In-Content Ad Slot -->
+                <div class="bg-slate-100 dark:bg-slate-900 border border-dashed border-slate-300 dark:border-darkBorder rounded-xl p-3 text-center text-xs text-slate-400">
+                    <span>[ In-Content Ad Space ]</span>
                 </div>
                 <div class="border-t border-slate-200 dark:border-darkBorder pt-4 mt-4 space-y-3">
                     <h3 class="text-xs font-bold uppercase tracking-wider text-redMain">About JSON to SQL Schema Conversion</h3>
@@ -422,20 +449,19 @@
                 </div>
             </section>
 
-            <!-- AD SLOT 3: In-content responsive ad. Add your approved ad-network unit code here. -->
-            <div class="ad-slot ad-slot-content" aria-label="Advertisement">
-                In-content advertisement space — ad code not connected yet.
-            </div>
         </main>
     </div>
 
-    <!-- Footer with Links and Ad Space -->
+    <!-- Footer Ad Banner Space -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 w-full mb-6">
+        <div class="bg-slate-200 dark:bg-darkCard border border-dashed border-slate-400 dark:border-darkBorder rounded-xl p-4 text-center text-xs text-slate-500 dark:text-slate-400">
+            <span>[ Advertisement Space - Footer Banner / Ad Network Script Tag ]</span>
+        </div>
+    </div>
+
+    <!-- Footer with Links -->
     <footer class="mt-auto border-t border-slate-200 dark:border-darkBorder bg-lightCard dark:bg-darkCard py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 space-y-6">
-            <!-- AD SLOT 4: Footer banner. Add your approved ad-network unit code here. -->
-            <div class="ad-slot ad-slot-footer" aria-label="Advertisement">
-                Footer advertisement space — ad code not connected yet.
-            </div>
             <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500 dark:text-slate-400">
                 <p>&copy; 2026 DevTool Nest. All rights reserved. Built for developers.</p>
                 <div class="flex flex-wrap justify-center gap-6 font-medium">
@@ -559,7 +585,6 @@
             var elem = document.getElementById(elementId);
             if (!elem) return;
             var textToCopy = ('value' in elem) ? elem.value : (elem.innerText || elem.textContent || '');
-            var status = document.getElementById('app-status');
             if (!textToCopy) {
                 showStatus('Nothing to copy.');
                 return;
@@ -772,7 +797,6 @@
             var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$%^&*!';
             var pass = '';
             var bytes = new Uint8Array(16);
-            // Rejection sampling avoids modulo bias in character selection.
             var limit = Math.floor(256 / chars.length) * chars.length;
             while (pass.length < 16) {
                 crypto.getRandomValues(bytes);
