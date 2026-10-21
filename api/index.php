@@ -7,6 +7,7 @@
     <!-- Primary SEO Meta Tags -->
     <title>DevTool Nest — Free Online Developer Tools & Utilities</title>
     <meta name="description" content="Free online browser-based tools for developers on DevTool Nest: JSON to SQL schema generator, Base64 encoder/decoder, SHA-256/512 hashes, JWT debugger, UUID v4 generator, URL slugify, JSON beautifier, and password generator. Fast, safe, and privacy-focused.">
+    <meta name="google-site-verification" content="PlJEnrbsoG17FolRWV4ogPvJCxOeBcLdJQJ14kK1GmM" />
     <meta name="keywords" content="DevTool Nest, developer tools, json to sql, base64 encoder, sha256 hash generator, jwt debugger, uuid generator, url slugify, json beautifier, password generator, html entity escaper">
     <meta name="author" content="DevTool Nest">
     <meta name="robots" content="index, follow">
